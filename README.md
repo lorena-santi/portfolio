@@ -18,7 +18,7 @@ Bem-vindo(a) ao meu portfólio de projetos de Data Analytics! Este repositório 
 
 ├── projetos                            # Projetos com análises ou modelos
 
-└── scripts                             # Scripts auxiliares e pipelines automatizados
+├── scripts                             # Scripts auxiliares e pipelines automatizados
 
 └── reports                             # Relatórios e dashboards gerados (PDF, PNG, links)
 

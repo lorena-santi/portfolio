@@ -14,11 +14,13 @@ Bem-vindo(a) ao meu portfólio de projetos de Data Analytics! Este repositório 
 
 📂 Estrutura do Repositório
 
-├── README.md              # Documentação do projeto
+├── README.md            # Documentação do projeto
 
-├── scripts                # Scripts automatizados e pipelines
+├── projetos             # Projetos com análises ou modelos
 
-├── reports                # Relatórios e dashboards gerados
+└── scripts              # Scripts auxiliares e pipelines automatizados
+
+└── reports              # Relatórios e dashboards gerados (PDF, PNG, links)
 
 📈 Projetos
 

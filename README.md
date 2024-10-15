@@ -22,8 +22,6 @@ Bem-vindo(a) ao meu portfólio de projetos de Data Analytics! Este repositório 
 
 └── reports                             # Relatórios e dashboards gerados (PDF, PNG, links)
 
-└── reports/             # Relatórios e dashboards gerados (PDF, PNG, links)
-
 📈 Projetos
 
 1. Microempresas do Setor de Pescados

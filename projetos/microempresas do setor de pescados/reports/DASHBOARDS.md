@@ -1,6 +1,6 @@
 📊 Dashboards de Performance das Lojas
 
-Bem-vindo(a) ao repositório que contém links de acesso aos dashboards desenvolvidos para monitorar a performance das unidades de negócio no setor de pescados.
+Links de acesso aos dashboards desenvolvidos para monitorar a performance das microempresas do setor de pescados.
 
 🐠 Loja Francisco Camocim: A Casa do Peixe
 

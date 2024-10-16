@@ -1,10 +1,10 @@
 --query vendas camocim
 select
-  cast(dt_venda as date) as dt_venda,
-  hora_venda,
-  qtd_clientes,
-  valor_vendas,
-  maior_venda
+	cast(dt_venda as date) as dt_venda,
+	hora_venda,
+	qtd_clientes,
+	valor_vendas,
+	maior_venda
 from
 	portfolio-408419.pescados.vendas
 where 
@@ -12,11 +12,11 @@ where
 
 --query vendas mac
 select
-  cast(dt_venda as date) as dt_venda,
-  produto,
-  qtd_produtos_unid,
-  valor_vendas,
-  tipo_corte
+	cast(dt_venda as date) as dt_venda,
+	produto,
+	qtd_produtos_unid,
+	valor_vendas,
+	tipo_corte
 from
 	portfolio-408419.pescados.vendas
 where 
@@ -24,14 +24,14 @@ where
 
 --query estoque camocim
 select
-  cast(dt_estoque as date) as dt_estoque,
-  id_fornecedor,
-  fornecedor,
-  id_produto,
-  produto,
-  qtd_estoque_kg,
-  qtd_saida_kg,
-  tipo_corte
+	cast(dt_estoque as date) as dt_estoque,
+	id_fornecedor,
+	fornecedor,
+	id_produto,
+	produto,
+	qtd_estoque_kg,
+	qtd_saida_kg,
+	tipo_corte
 from
 	portfolio-408419.pescados.estoque
 where 
@@ -40,12 +40,12 @@ where
 
 --query estoque mac
 select
-  cast(dt_estoque as date) as dt_estoque,
-  id_fornecedor,
-  produto,
-  valor_compra,
-  qtd_estoque_kg,
-  tipo_corte
+	cast(dt_estoque as date) as dt_estoque,
+	id_fornecedor,
+	produto,
+	valor_compra,
+	qtd_estoque_kg,
+	tipo_corte
 from
 	portfolio-408419.pescados.estoque
 where 

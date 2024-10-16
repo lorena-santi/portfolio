@@ -32,6 +32,6 @@ Bem-vindo(a) ao meu portfólio de projetos de Data Analytics! Este repositório 
 
 📬 Contato
 
-• [LinkedIn: linkedin.com/in/lorena-santiago1](https://linkedin.com/in/lorena-santiago1)
+• LinkedIn: [linkedin.com/in/lorena-santiago1](https://linkedin.com/in/lorena-santiago1)
 
 • E-mail: lorena.martins@outlook.com.br

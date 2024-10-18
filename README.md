@@ -7,9 +7,9 @@ Bem-vindo(a) ao meu portfólio de projetos de Data Analytics! Este repositório 
 ## 🛠️ Ferramentas e Tecnologias
 
 - **Linguagens:** Python, SQL  
-- **Data Warehousing:** BigQuery  
-- **BI Tools:** Looker Studio  
-- **Versionamento:** Git, GitHub  
+- **Banco de Dados:** BigQuery, MongoDB
+- **BI Tools:** Grafana, JasperReports, Looker Studio, Power BI, Qlik, Tableau  
+- **Versionamento:** Git
 
 ---
 

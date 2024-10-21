@@ -28,7 +28,7 @@ Bem-vindo(a) ao meu portfólio de projetos de Data Analytics! Este repositório 
 ## 📈 Projetos
 
 1. **Microempresas do Setor de Pescados**  
-   **Descrição:** Aplicar técnicas de BI para transformar dados coletados em insights estratégicos que apoiem a gestão das microempresas de pescados, identificando padrões e tendências para otimizar processos e decisões.  
+   **Descrição:** Aplicação de técnicas de BI para transformar dados coletados em insights estratégicos que apoiem a gestão das microempresas de pescados, identificando padrões e tendências para otimizar processos e decisões.  
    **Tecnologias:** Python, SQL, BigQuery, Looker Studio  
 
 ---

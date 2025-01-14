@@ -1,40 +1,39 @@
 # 📊 Data Projects Portfolio
 
-Bem-vindo(a) ao meu portfólio de projetos de Data Analytics! Este repositório serve como um compilado de iniciativas, estudos e aplicações que demonstram minhas habilidades na área de dados.
+Welcome to my Data Analytics project portfolio! This repository serves as a compilation of initiatives, studies, and applications that showcase my skills in the field of data.
 
 ---
 
-## 🛠️ Ferramentas e Tecnologias
+## 🛠️ Tools and Technologies
 
-- **Linguagens:** Python, SQL  
-- **Banco de Dados:** BigQuery, MongoDB
+- **Languages:** Python, SQL  
+- **Databases:** BigQuery, MongoDB
 - **BI Tools:** Grafana, JasperReports, Looker Studio, Power BI, Qlik, Tableau  
-- **Versionamento:** Git
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-├── README.md        # Documentação do projeto
+├── README.md        # Project documentation
 
-├── projetos         # Projetos com análises ou modelos
+├── projects         # Projects with analyses or models
 
-│      ├── scripts      # Scripts auxiliares e pipelines automatizados
+│      ├── scripts      # Auxiliary scripts and automated pipelines
 
-│      └── reports      # Relatórios e dashboards gerados (PDF, PNG, links)
-
----
-
-## 📈 Projetos
-
-1. **Microempresas do Setor de Pescados**  
-   **Descrição:** Aplicação de técnicas de BI para transformar dados coletados em insights estratégicos que apoiem a gestão das microempresas de pescados, identificando padrões e tendências para otimizar processos e decisões.  
-   **Tecnologias:** Python, SQL, BigQuery, Looker Studio  
+│      └── reports      # Generated reports and dashboards (PDF, PNG, links)
 
 ---
 
-## 📬 Contato
-  🇧🇷 **Português** | 🇺🇸 **Inglês** | 🇪🇸 **Espanhol**
+## 📈 Projects
+
+1. **Microenterprises in the Fisheries Secto**  
+   **Description:** Application of BI techniques to transform collected data into strategic insights that support the management of fisheries microenterprises, identifying patterns and trends to optimize processes and decision-making.
+   **Technologies:** Python, SQL, BigQuery, Looker Studio  
+
+---
+
+## 📬 Contact
+  🇧🇷 **Portuguese** | 🇺🇸 **English** | 🇪🇸 **Spanish**
 - LinkedIn: [linkedin.com/in/lorena-santiago1](https://linkedin.com/in/lorena-santiago1)
 
 - E-mail: lorena.martins@outlook.com.br

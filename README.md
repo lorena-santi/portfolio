@@ -12,7 +12,7 @@ Welcome to my Data Analytics project portfolio! This repository serves as a comp
 
 ---
 
-## 📂 Estrutura do Repositório
+## 📂 Repository Structure
 
 ├── README.md        # Project documentation
 

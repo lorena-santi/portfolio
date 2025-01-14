@@ -26,7 +26,7 @@ Welcome to my Data Analytics project portfolio! This repository serves as a comp
 
 ## 📈 Projects
 
-1. **Microenterprises in the Fisheries Secto**  
+1. **Microenterprises in the Fisheries Sector**  
    **Description:** Application of BI techniques to transform collected data into strategic insights that support the management of fisheries microenterprises, identifying patterns and trends to optimize processes and decision-making.
    **Technologies:** Python, SQL, BigQuery, Looker Studio  
 

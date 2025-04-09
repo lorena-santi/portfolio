@@ -4,7 +4,9 @@ from google.cloud import bigquery
 import pyarrow as pa 
 import os
 
-path = 'C:\\Users\\Lorena\\Documents\\portfolio\\projetos\\microempresas do setor de pescados\\base\\'
+path = r'C:/Users/loren/Documents/Portfolio/Projects/Small Businesses in the Fisheries Sector/Files/'
+
+print('Getting started \n')
 
 #creating an empty table
 nomes_col_v =['dt_venda','hora_venda','qtd_clientes','produto','qtd_produtos_unid','valor_vendas','maior_venda','tipo_corte','loja']
@@ -226,6 +228,8 @@ estoque_dw_cam['loja'] = 'Camocim'
 #concatenating tables
 estoque_dw = pd.concat([estoque_dw_mac,estoque_dw_cam])
 
+print('Data transformation completed \n')
+
 #transforming the dataframe into a pyarrow table
 schema_vendas = pa.schema([
     ('dt_venda', pa.date32()), 
@@ -254,8 +258,10 @@ schema_estoque = pa.schema([
 ])
 base_pyarrow = pa.Table.from_pandas(estoque_dw, schema=schema_estoque)
 
+print('Uploading tables to BigQuery \n')
+
 #setting up bigquery
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'C:\\Users\\Lorena\\Documents\\portfolio\\bigquery\\portfolio-408419-5db80d993fad.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'C:/Users/loren/Documents/Portfolio/BigQuery/portfolio-408419-5db80d993fad.json'
 
 client = bigquery.Client()
 project_id = 'portfolio-408419'
@@ -346,3 +352,5 @@ except:
     job_config = bigquery.LoadJobConfig(write_disposition=bigquery.WriteDisposition.WRITE_APPEND)
     job = client.load_table_from_dataframe(estoque_dw, id_tabela_estoque, job_config=job_config)
     job.result()
+
+print('Completed')

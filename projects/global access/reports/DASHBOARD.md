@@ -9,6 +9,6 @@ Implementation of an access simulator using the IPGeolocation API to gather data
 
 ## 📈 Dashboard Link
 
-🔗 [Global Access Dashboard](https://msconsultoria.grafana.net/dashboard/snapshot/CCNLGkSQkskOkuI6NeWoUEKodNHTBkzf?orgId=1&from=2025-05-05T18:00:00.000Z&to=2025-05-10T23:59:59.000Z&timezone=utc&var-continent=$__all&var-country=$__all&var-state=$__all&var-city=$__all&var-company=$__all)
+🔗 [Global Access Dashboard](https://msconsultoria.grafana.net/dashboard/snapshot/vt5GuudO3suLDEEx65jcekyjYQPyg0RY)
 
 > _Hosted on Grafana. Public read-only access available._

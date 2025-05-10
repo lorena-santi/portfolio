@@ -27,7 +27,7 @@ Welcome to my data analytics project portfolio! This repository serves as a comp
 ## 📈 Projects
 
 **1.** **Fisheries BI Solutions**  
-   **Description:** Applied Business Intelligence (BI) methodologies to transform raw data into actionable insights, supporting strategic decision-making for small businesses in the fisheries sector. Focused on identifying operational patterns and market trends to drive process optimization and informed management decisions.
+   **Description:** Applied Business Intelligence methodologies solutions for small businesses in the fisheries sector, focusing on operational optimization and data-driven decision-making. Data was personally collected on-site, organized, and digitized in spreadsheets. Interactive dashboards were created to uncover sales patterns, hourly trends, product performance, and inventory flow, helping identify bottlenecks and strategic opportunities tailored to each store.
 
    **Technologies:** BigQuery, Looker Studio, Python, SQL 
 

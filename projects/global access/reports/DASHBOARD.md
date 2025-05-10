@@ -5,7 +5,9 @@ Dashboard created to monitor and analyze simulated system and application access
 ## 🌐 Project Overview
 
 **Description:**  
-Implementation of an access simulator using the IPGeolocation API to gather data such as IP address, geolocation, and access timestamp. The project allows real-time or historical analysis of user behavior, regional traffic distribution, and access trends through an interactive dashboard.
+This project implements an access simulator. The collected data is structured and visualized to enable real-time and historical analysis of access distribution by country and city, traffic behavior over time and geographic usage trends. 
+The solution offers valuable insights for monitoring user behavior, security auditing and global traffic patterns.
+
 
 ## 📈 Dashboard Link
 

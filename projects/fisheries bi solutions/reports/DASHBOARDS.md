@@ -5,7 +5,7 @@ Dashboards and analytics designed to support strategic decisions in the small-sc
 ## 📘 Project Overview
 
 **Description:**  
-Applied Business Intelligence (BI) methodologies to transform raw data into actionable insights, supporting strategic decision-making for small businesses in the fisheries sector. The project focuses on identifying operational patterns and market trends to drive process optimization and informed management decisions.
+This project involved the design and implementation of BI solutions for small fisheries businesses, aiming to uncover operational patterns and improve decision-making. Data was manually collected in the field and processed to develop interactive dashboards. These visual tools highlight key metrics such as sales trends, product performance, and inventory flow, providing actionable insights for inventory optimization and demand forecasting.
 
 ## 📊 Dashboard Links
 

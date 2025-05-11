@@ -32,6 +32,6 @@ Welcome to my data analytics project portfolio! This repository serves as a comp
    **Technologies:** BigQuery, Looker Studio, Python, SQL 
 
 **2.** **Global Access**  
-   **Description:** Implementation of an access simulator integrated with the IPGeolocation API to collect user metadata, including IP address, geolocation and timestamp of access events. The data was structured and visualized in a dashboard, enabling real-time analysis of user behavior across countries and cities. The system supports monitoring of global traffic distribution, peak access times and location-based usage trends, offering valuable insights for security, performance optimization and audience analysis.
+   **Description:** Implementation of an access simulator integrated with the [IPGeolocation API](https://ipgeolocation.io/ip-location-api.html) to collect user metadata, including IP address, geolocation and timestamp of access events. The data was structured and visualized in a dashboard, enabling real-time analysis of user behavior across countries and cities. The system supports monitoring of global traffic distribution, peak access times and location-based usage trends, offering valuable insights for security, performance optimization and audience analysis.
 
    **Technologies:** BigQuery, Grafana, Python, SQL 

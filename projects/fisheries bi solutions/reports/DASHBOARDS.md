@@ -5,7 +5,7 @@ Dashboards and analytics designed to support strategic decisions in the small-sc
 ## 📘 Project Overview
 
 **Description:**  
-This project involved the design and implementation of BI solutions for small fisheries businesses, aiming to uncover operational patterns and improve decision-making. Data was collected and processed to develop interactive dashboards. These visual tools highlight key metrics such as sales trends, product performance, and inventory flow, providing actionable insights for inventory optimization and demand forecasting.
+This project involved the design and implementation of BI solutions for small fisheries businesses, aiming to uncover operational patterns and improve decision-making. Data was collected and processed to develop interactive dashboards. These visual tools highlight key metrics such as sales trends, product performance and inventory flow, providing actionable insights for inventory optimization and demand forecasting.
 
 ## 📊 Dashboard Links
 

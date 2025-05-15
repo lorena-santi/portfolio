@@ -15,7 +15,7 @@ This project involved the design and implementation of BI solutions for small fi
 - **MAC Fish**  
   🔗 [Dashboard - MAC Fish](https://lookerstudio.google.com/s/hqeQOcDpM_w)  
 
-> _Developed with Looker Studio. Dashboards are interactive and publicly accessible._
+> _Developed with Looker. Dashboards are interactive and publicly accessible._
 
 ---
 

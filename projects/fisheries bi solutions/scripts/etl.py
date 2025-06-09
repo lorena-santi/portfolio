@@ -304,7 +304,7 @@ def load_bigquery(df, tabela_id, schema):
     job = client.load_table_from_dataframe(df, tabela_id, job_config=job_config)
     job.result() 
 
-#loading 'vendas' table
+#uploading 'vendas' table
 try:
     client.delete_table(id_tabela_vendas, not_found_ok=True)  
     schema_vendas = create_schema_vendas()
@@ -312,9 +312,9 @@ try:
     client.create_table(tabela_vendas)  
     load_bigquery(vendas_dw, id_tabela_vendas, schema_vendas)  
 except Exception as e:
-    print(f"Error loading 'vendas' table: {e}")
+    print(f"Error uploading 'vendas' table: {e}")
 
-#loading 'estoque' table
+#uploading 'estoque' table
 try:
     client.delete_table(id_tabela_estoque, not_found_ok=True)  
     schema_estoque = create_schema_estoque()
@@ -322,6 +322,6 @@ try:
     client.create_table(tabela_estoque)  
     load_bigquery(estoque_dw, id_tabela_estoque, schema_estoque) 
 except Exception as e:
-    print(f"Error loading 'estoque' table: {e}")
+    print(f"Error uploading 'estoque' table: {e}")
 
 print('Completed')

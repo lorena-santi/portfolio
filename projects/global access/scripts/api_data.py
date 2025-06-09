@@ -156,6 +156,6 @@ try:
     job.result()
 
 except Exception as e:
-    print(f"Error loading table: {e}")
+    print(f"Error uploading table: {e}")
 
 print('Completed')

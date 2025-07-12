@@ -11,6 +11,6 @@ The solution offers valuable insights for monitoring user behavior, security aud
 
 ## 📈 Dashboard Link
 
-🔗 [Global Access Dashboard](https://msconsultoria.grafana.net/dashboard/snapshot/vt5GuudO3suLDEEx65jcekyjYQPyg0RY)
+🔗 [Global Access Dashboard](https://msconsultoria.grafana.net/dashboard/snapshot/uaNjwEY81XiC2MXKWWnu4c9HSWqi49sP)
 
 > _Hosted on Grafana. Public read-only access available._

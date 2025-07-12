@@ -39,20 +39,22 @@ where 1=1
   and organization in ($company)
   and country in ($country)
   and continent_name in ($continent)
-  and replace(city,"'","") in ($city)
-  and replace(state,"'","") in ($state)
+  and city in ($city)
+  and state in ($state)
+  and $__timeFilter(PARSE_TIMESTAMP('%F %H:%M:%E*S%Ez', `current_time`))
 
 --total access graph
 select 
-  COUNT(*) AS Amount
+  count(*) AS Amount
 from 
   `portfolio-408419.network.ip_data`
 where 1=1
   and organization in ($company)
   and country in ($country)
   and continent_name in ($continent)
-  and replace(city,"'","") in ($city)
-  and replace(state,"'","") in ($state)
+  and city in ($city)
+  and state in ($state)
+  and $__timeFilter(PARSE_TIMESTAMP('%F %H:%M:%E*S%Ez', `current_time`))
 
 --top countries graph
 select 
@@ -64,8 +66,9 @@ where 1=1
   and organization in ($company)
   and country in ($country)
   and continent_name in ($continent)
-  and replace(city,"'","") in ($city)
-  and replace(state,"'","") in ($state)
+  and city in ($city)
+  and state in ($state)
+  and $__timeFilter(PARSE_TIMESTAMP('%F %H:%M:%E*S%Ez', `current_time`))
 group by
   country
 order by 
@@ -82,8 +85,9 @@ where 1=1
   and organization in ($company)
   and country in ($country)
   and continent_name in ($continent)
-  and replace(city,"'","") in ($city)
-  and replace(state,"'","") in ($state)
+  and city in ($city)
+  and state in ($state)
+  and $__timeFilter(PARSE_TIMESTAMP('%F %H:%M:%E*S%Ez', `current_time`))
 group by
   city
 order by 
@@ -93,37 +97,38 @@ limit 5
 -- access timeline graph
 select 
   TIMESTAMP_TRUNC(PARSE_TIMESTAMP('%F %H:%M:%E*S%Ez', `current_time`), HOUR) AS time,
-  COUNT(*) AS Amount
+  count(*) AS Amount
 from 
   `portfolio-408419.network.ip_data`
 where 1=1
   and organization in ($company)
   and country in ($country)
   and continent_name in ($continent)
-  and replace(city,"'","") in ($city)
-  and replace(state,"'","") in ($state)
+  and city in ($city)
+  and state in ($state)
+  and $__timeFilter(PARSE_TIMESTAMP('%F %H:%M:%E*S%Ez', `current_time`))
 group by
   time
 order by
   time
 
 --variable continent
-select
-  distinct continent_name 
+select distinct 
+  continent_name
 from 
   `portfolio-408419.network.ip_data` 
 
 --variable country
-select 
-  distinct country 
+select distinct 
+  country
 from 
   `portfolio-408419.network.ip_data` 
 where 1=1  
   and continent_name in ($continent)
 
 --variable state
-select 
-  distinct replace(state,"'","") 
+select distinct 
+  state
 from 
   `portfolio-408419.network.ip_data`
 where 1=1
@@ -131,22 +136,22 @@ where 1=1
   and country in ($country)
 
 --variable city
-select 
-  distinct replace(city,"'","") 
+select distinct 
+  city
 from 
   `portfolio-408419.network.ip_data`
 where 1=1
   and continent_name in ($continent)
   and country in ($country)
-  and replace(state,"'","")  in ($state)
+  and state in ($state)
 
 --variable company
-select 
-  distinct organization 
+select distinct 
+  organization 
 from 
   `portfolio-408419.network.ip_data` 
 where 1=1
   and continent_name in ($continent)
   and country in ($country)
-  and replace(state,"'","")  in ($state)
-  and replace(city,"'","")  in ($city)
+  and state in ($state)
+  and city in ($city)
